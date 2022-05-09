@@ -1,0 +1,964 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+/* nav bar for all pages starts here */
+nav {
+  position: fixed;
+  top: 0;
+  border: 2px solid black;
+  width: 100%;
+  height: 100px;
+  float: left;
+  background: white;
+  background-color: chocolate;
+  z-index: 9;
+}
+nav .logo_content {
+  border: 2px solid chocolate;
+  width: 11%;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+nav .logo_content a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+nav .logo_content a h2 {
+  float: left;
+}
+nav .logo_content a i {
+  margin-top: 5px;
+  float: right;
+}
+nav .nav-bar {
+  border: 2px solid chocolate;
+  float: left;
+  position: fixed;
+  top: 0%;
+  left: 30%;
+  margin-top: 5px;
+  margin-top: 30px;
+}
+nav .nav-bar ul {
+  list-style: none;
+}
+nav .nav-bar ul li {
+  float: left;
+  margin-left: 30px;
+  text-align: center;
+}
+nav .nav-bar ul li a {
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+}
+nav .nav-bar ul li a:hover {
+  color: brown;
+}
+nav .nav-bar ul li .active {
+  color: black;
+  text-decoration: dotted;
+}
+nav .nav-bar ul li a i {
+  margin-top: 10px;
+}
+nav .nav-bar ul li input {
+  margin-top: 2px;
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+nav .nav-bar ul li #btn {
+  position: fixed;
+  top: 3.3%;
+  left: 53.4%;
+  margin-top: 21px;
+  margin-left: 10px;
+  text-align: center;
+  color: lightgrey;
+}
+nav .nav-bar ul li:last-child {
+  border: 2px solid chocolate;
+  position: fixed;
+  top: 0;
+  width: 70px;
+  text-align: center;
+  margin-top: 30px;
+  right: 0;
+  margin-right: 20px;
+}
+nav .nav-bar ul li a .num {
+  color: black;
+}
+/* nav bar for all pages ends here */
+
+/* index.html header starts here*/
+header {
+  /* border: 2px solid red; */
+  /* border-top: 20px solid red; */
+  width: 100%;
+  height: 400px;
+}
+/* index.html header background image */
+header a .center {
+  background: url("/asset/img/background2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: -100px 70px;
+  width: 100%;
+  height: 400px;
+}
+header .content a {
+  text-decoration: none;
+}
+/* index.html header ends here*/
+
+/* index.html main content starts here */
+
+main {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid brown; */
+}
+main .materials {
+  /* border: 2px solid green; */
+  width: 1290px;
+  height: 350px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+/* index.html materials starts here */
+main .materials h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+main .materials .items {
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  height: 290px;
+  width: 1287px;
+}
+/* index.html materials ends here*/
+
+/* index.html products */
+main .materials .items .pro {
+  /* position: relative; */
+  /* left: 10px; */
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 95%;
+  width: 180px;
+  margin-left: 29px;
+  margin-top: 7px;
+  float: left;
+}
+main .materials .items a {
+  text-decoration: none;
+}
+main .materials .items a .pro img {
+  display: flex;
+  width: 150px;
+  height: 220px;
+}
+/* index.html main items starts here */
+main .materials .items .pro:hover {
+  box-shadow: 4px 5px 4px grey;
+}
+main .materials .items .pro p {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.pro img {
+  width: 175px;
+  height: 230px;
+}
+/* index.html main items ends here */
+/* index.html products ends here */
+/* index.html main content ends here*/
+
+/* footer for all pages */
+footer {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  bottom: -20px;
+  /* border: 2px solid crimson; */
+  background-color: black;
+  color: white;
+}
+.footer {
+  position: relative;
+  bottom: -290px;
+  margin-top: 200px;
+}
+/* mini-mart logo */
+footer .footer_logo {
+  width: 140px;
+  height: 30px;
+  /* border: 2px solid purple; */
+  margin-left: 30px;
+  padding-top: 20px;
+}
+footer .footer_logo a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer_logo a h2 {
+  float: left;
+}
+footer .footer_logo a i {
+  margin-top: 7px;
+  float: right;
+}
+/* newletter starts here */
+footer .footer_content .subscribe {
+  width: 500px;
+  /* border: 2px solid brown; */
+  position: relative;
+  left: 400px;
+  top: -67px;
+  margin-top: 60px;
+}
+footer .footer_content .subscribe h2 {
+  position: relative;
+  top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+footer .footer_content .subscribe form {
+  text-align: center;
+  /* border: 2px solid saddlebrown; */
+}
+footer .footer_content .subscribe form input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+footer .footer_content .subscribe form .button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+/* footer's table ends here */
+
+/* footer's table starts here */
+footer .footer_content .table {
+  margin-left: 30px;
+  width: 900px;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.table th {
+  text-align: left;
+}
+.table th a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+.table td a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+.table th,
+table td {
+  padding: 8px;
+}
+/* footer's table ends here */
+
+/* payment methods  starts here*/
+.complex {
+  margin-top: 30px;
+  /* border: 2px solid rgb(202, 103, 103); */
+  border-bottom: 2px solid grey;
+  padding-bottom: 20px;
+}
+.complex ul li {
+  display: inline;
+  margin-left: 60px;
+}
+.complex ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: white;
+}
+/* payment methods  ends here*/
+
+/* copyright  starts here*/
+.footer_bottom {
+  margin-top: 0px;
+  width: 100%;
+  height: 50px;
+  /* border: 2px solid grey; */
+  padding-top: 10px;
+}
+.footer_bottom h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+/* copyright  ends here*/
+
+/* footer ends here */
+
+/* products.html header starts here */
+.header {
+  border: 2px white solid;
+  background-color: rgb(252, 249, 249);
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+}
+.header .category {
+  padding-top: 10px;
+}
+.header .category h2 {
+  margin-left: 374px;
+  float: left;
+}
+.header .category i {
+  margin-top: 7px;
+}
+.header .table_cat {
+  margin: 20px auto;
+  text-align: left;
+  border-collapse: collapse;
+}
+.header .table_cat th,
+.table_cat td {
+  padding: 8px;
+  border-right: 2px solid black;
+}
+.header .table_cat th:last-child,
+.table_cat td:last-child {
+  border-right: none;
+}
+.header .table_cat th a,
+.table_cat td a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+/* products.html main starts here */
+.materials1 {
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+}
+.materials1 h2 {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.materials1 .item1 {
+  border: 2px solid white;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 440px;
+}
+.materials1 .item1 h3 {
+  border: 2px solid white;
+  width: 100%;
+  text-transform: capitalize;
+}
+.materials1 .item1 .filter {
+  text-align: end;
+  margin-top: -27px;
+  border: 2px solid white;
+  width: 100px;
+  float: right;
+}
+.materials1 .item1 .filter h4 {
+  margin-right: 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.materials1 .item1 .filter form select {
+  width: 100px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.products {
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  width: 100%;
+  height: 370px;
+  margin-top: 20px;
+  background-color: white;
+}
+.products a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.products a.pav {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+.products .product1:hover {
+  box-shadow: 2px 4px 5px black;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.products .product1 {
+  border: 2px solid white;
+  width: 202px;
+  height: 349px;
+  margin-top: 10px;
+  margin-left: 17px;
+  border-radius: 10px;
+  float: left;
+}
+.products .product1 img {
+  border: 2px solid white;
+  width: 198px;
+  height: 190px;
+  border-radius: 10px;
+}
+.products .product1 .price.pa {
+  margin-top: 9px;
+}
+.products .product1 .product_name .rating {
+  padding-top: 20px;
+}
+.products .product1 .product_name i {
+  color: yellow;
+}
+.products .product1 .price {
+  margin-top: 10px;
+}
+.products .product1 .price i {
+  color: black;
+}
+.products .product1 form .button2 {
+  margin-top: 5px;
+  width: 90%;
+  height: 40px;
+  background-color: chocolate;
+  text-transform: capitalize;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+/* search.html header */
+.header1 {
+  border: 2px solid black;
+  margin-top: 100px;
+  width: 100%;
+  height: 100px;
+}
+.header1 h2 {
+  text-align: center;
+  color: green;
+  text-transform: capitalize;
+}
+/* productDetails */
+.header2 {
+  margin-top: 100px;
+  width: 100%;
+  background: white;
+  border: 2px solid white;
+  height: 900px;
+  margin-bottom: 30px;
+}
+.header2 .prod_details {
+  border: 2px solid white;
+  height: 400px;
+}
+.header2 .prod_details .prod_image {
+  border: 2px solid grey;
+  height: 304px;
+  width: 304px;
+  float: left;
+}
+.header2 .prod_details .prod_image img {
+  width: 230px;
+}
+.header2 .prod_details .prod_image form {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.header2 .prod_details .prod_image form .button2 {
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  font-size: 15px;
+  text-transform: capitalize;
+  background-color: chocolate;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.header2 .prod_details .prod_image form .button2 i {
+  color: white;
+  float: left;
+  padding-left: 10px;
+}
+.header2 .prod_details .prod_name {
+  border: 2px solid white;
+  height: 400px;
+  display: block;
+  float: left;
+  width: 530px;
+  margin-right: 10px;
+}
+.header2 .prod_details .prod_name .brand {
+  border-bottom: 2px solid white;
+  width: 100%;
+  height: 100px;
+}
+.header2 .prod_details .prod_name .brand p a,
+.header2 .prod_details .prod_name .brand .b a {
+  text-decoration: none;
+}
+.header2 .prod_details .prod_name .brand p a:hover {
+  text-decoration: underline;
+}
+.header2 .prod_details .prod_name .brand p i {
+  color: lightgrey;
+  padding-top: 10px;
+}
+.header2 .prod_details .prod_name .prod_price {
+  display: flex;
+}
+.header2 .prod_details .prod_name .prod_price i {
+  padding-top: 3px;
+  padding-right: 2px;
+}
+.header2 .prod_details .prod_delivery {
+  border: 2px solid white;
+  height: 400px;
+  display: block;
+  float: left;
+  width: 497px;
+}
+.header2 .prod_details .prod_delivery i {
+  float: left;
+  padding-top: 2px;
+  margin-left: 2px;
+  border: 2px solid lightgrey;
+  margin-right: 3px;
+  padding: 5px;
+}
+.header2 .prod_details .prod_delivery h3 {
+  margin-top: 2px;
+}
+.header2 .prod_details .prod_delivery p {
+  border: 2px solid white;
+  display: flex;
+  width: 250px;
+  margin-left: 40px;
+}
+.tru {
+  margin-bottom: 20px;
+}
+.prod_color {
+  border: 2px solid white;
+  width: 100%;
+  height: 200px;
+}
+
+.prod_color .color {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.prod_color p {
+  border: 2px solid black;
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+.sliver {
+  background-color: silver;
+}
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.white {
+  background-color: white;
+}
+.produce {
+  margin-top: 10px;
+  border: 2px solid white;
+  width: 100%;
+  height: 497px;
+}
+.produce .produ_name {
+  width: 100%;
+  border: 2px solid white;
+  height: 40px;
+  text-align: center;
+}
+.produce .produ_det {
+  width: 100%;
+  height: 454px;
+  border: 2px solid white;
+}
+.produce .produ_det .produ_item {
+  border: 2px solid grey;
+  height: 450px;
+  width: 360px;
+  float: left;
+  margin-right: 40px;
+  margin-left: 44px;
+}
+.produce .produ_det .produ_item h2 {
+  text-align: center;
+  border-bottom: 2px solid lightgrey;
+  padding: 5px;
+}
+.produce .produ_det .produ_item ul {
+  margin-left: 20px;
+  padding: 15px 5px 5px 10px;
+}
+.produce .produ_det .produ_item .speci {
+  border: 2px solid white;
+  padding: 10px;
+  width: 100%;
+  height: 407px;
+}
+.produce .produ_det .produ_item .speci .change {
+  border: 2px solid white;
+  margin-bottom: 6px;
+}
+.produce .produ_det .produ_item .speci h4 {
+  float: left;
+}
+
+main .materials1 .item1 .products .product1.pro_m {
+  height: 300px;
+}
+/* orderpage.html header */
+.header3 {
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+.header3 .header_text {
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-left: 20px;
+}
+.header3 .header_text h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header3 .header_text .form_set label {
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.header3 .header_text .form_set form input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+.header3 .header_text .form_set form select {
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+.header3 .header_text .form_set .text_field {
+  padding-bottom: 10px;
+}
+.header3 .header_text .form_set .text_field .rede {
+  width: 230px;
+}
+.header3 .header_text .form_set .text_field .select {
+  width: 300px;
+}
+.header3 .header_text .form_set .button3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  color: white;
+  background-color: chocolate;
+}
+
+/* invoice.html */
+.main {
+  margin-top: 100px;
+  width: 100%;
+  border: 2px solid white;
+  height: 100%;
+}
+.main h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main .invoice {
+  width: 100%;
+  height: 300px;
+  border: 2px solid white;
+  margin-bottom: 20px;
+}
+.main .invoice h3 {
+  text-align: center;
+}
+.main .invoice .invoice_details {
+  border: 2px solid white;
+  width: 100%;
+  height: 250px;
+  margin-top: 5px;
+  text-align: center;
+  padding-top: 20px;
+}
+.main .invoice .invoice_details .align {
+  /* border: 2px solid black; */
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 30px;
+  left: 40%;
+  display: block;
+  color: black;
+  text-align: left;
+}
+.main .invoice .invoice_details .align .door {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.main .invoice .invoice_details .align .door .deli input {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.table2 {
+  font-size: 15px;
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.table2 .ltr,
+.table2 td {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.table2 .rtl {
+  text-align: right;
+}
+.table2 th.rtl {
+  padding-right: 9px;
+}
+.table2 .top {
+  border-top: 2px solid grey;
+}
+.door button {
+  width: 250px;
+  height: 40px;
+  background-color: chocolate;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* orderSuccessfull.html main */
+.main2 {
+  margin-top: 100px;
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+}
+.main2 h2 {
+  padding-left: 10px;
+  color: green;
+}
+.main2 .order {
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+}
+.main2 .order a {
+  text-decoration: none;
+  color: black;
+}
+.main2 .order .product2 {
+  border: 2px solid lightgrey;
+  display: flex;
+  margin-bottom: 30px;
+}
+.main2 .order .product2 .product_name2 {
+  border: 2px solid white;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.main2 .order .product2 .product_name2 .list {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.main2 .order .product2 .product_name2 .list p {
+  padding-top: 10px;
+}
+.main2 .order .product2 .product_name2 .list .price1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main2 .order .product2 .product_name2 .list span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main2 .order .product2 .product_name2 .list .shipped {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+.main2 .order .product2 .product_name2 .list .price1 form button {
+  text-align: center;
+  margin-top: 10px;
+  height: 40px;
+  text-transform: capitalize;
+  width: 100%;
+  background-color: chocolate;
+  color: white;
+}
+/* cart.html */
+.header4 {
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  border: 2px solid white;
+}
+.header4 .cart_item {
+  width: 100%;
+  height: 450px;
+  border: 2px solid white;
+}
+.header4 .cart_item .cart_name {
+  width: 100%;
+  height: 350px;
+  border: 2px solid white;
+}
+.header4 .cart_item .cart_name .cart {
+  width: 800px;
+  height: 250px;
+  border: 2px solid lightgrey;
+  margin-left: 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+.header4 .cart_item .cart_name h2 {
+  padding: 10px;
+  border: 2px solid lightgrey;
+  border-radius: 10px 10px 0 0px;
+  width: 800px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.header4 .cart_item .cart_name .cart img {
+  width: 150px;
+  height: 150px;
+}
+.header4 .cart_item .cart_name .cart .cart_details {
+  float: right;
+}
+.header4 .cart_item .cart_name .cart .cart_details p {
+  float: left;
+  width: 550px;
+}
+.header4 .cart_item .cart_name .cart .cart_details span {
+  padding-right: 20px;
+}
+.header4 .cart_item .cart_name .cart .remove {
+  display: flex;
+  padding-left: 10px;
+  border: 2px solid white;
+}
+.header4 .cart_item .cart_name .cart .remove i {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.header4 .cart_item .cart_name .cart .remove button {
+  text-align: left;
+  width: 100px;
+  background-color: white;
+  border: none;
+  color: chocolate;
+}
+.header4 .cart_item .cart_name .cart .remove .form_in {
+  width: 100px;
+  position: relative;
+  left: 570px;
+  float: right;
+}
+.header4 .cart_item .cart_name .cart .remove .form_in input {
+  width: 100px;
+  text-align: center;
+}
+.header4 .cart_item .other {
+  float: right;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  position: absolute;
+  right: 3%;
+  top: 18%;
+  margin-top: 10px;
+  width: 400px;
+  height: 175px;
+}
+.header4 .cart_item .other h3 {
+  padding: 10px;
+  border: 2px solid white;
+}
+.header4 .cart_item .other .sub {
+  border-top: 2px solid lightgray;
+  border-radius: 10px;
+}
+.header4 .cart_item .other .sub p {
+  text-align: right;
+  position: relative;
+  top: -30px;
+  right: 10px;
+}
+.header4 .cart_item .other .sub p i {
+  padding-right: 10px;
+}
+.header4 .cart_item .other .sub form {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* The CSS for the button. */
+.header4 .cart_item .other .sub form button {
+  width: 100%;
+  height: 40px;
+  background-color: chocolate;
+  color: white;
+  box-shadow: 2px 3px 5px lightgrey;
+}
+/* Selecting all the p tags inside the div with the class green. */
+.green p {
+  background-color: green;
+}
